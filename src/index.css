@@ -3,14 +3,14 @@
    ═══════════════════════════════════════════════════════════════ */
 
 :root {
-  --fundo: #0b0f1a;
-  --fundo-2: #121829;
-  --cartao: #161d33;
-  --borda: #263153;
-  --texto: #e8ecf8;
-  --texto-fraco: #93a0c4;
-  --acento: #6d8bff;
-  --acento-2: #b06dff;
+  --fundo: #0a0a0a;
+  --fundo-2: #141414;
+  --cartao: #1c1c1c;
+  --borda: #2e2e2e;
+  --texto: #f0f0f0;
+  --texto-fraco: #9a9a9a;
+  --acento: #5a5a5a;
+  --acento-2: #1a1a1a;
   --ok: #34d399;
   --atencao: #fbbf24;
   --perigo: #f87171;
@@ -24,8 +24,8 @@
 body {
   margin: 0;
   font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
-  background: radial-gradient(1100px 600px at 12% -10%, #1d2748 0%, transparent 55%),
-    radial-gradient(900px 500px at 100% 0%, #2a1b45 0%, transparent 50%), var(--fundo);
+  background: radial-gradient(1100px 600px at 12% -10%, #202020 0%, transparent 55%),
+    radial-gradient(900px 500px at 100% 0%, #161616 0%, transparent 50%), var(--fundo);
   color: var(--texto);
   min-height: 100vh;
   padding-bottom: 60px;
@@ -36,11 +36,11 @@ h2 {
   margin: 0;
 }
 code {
-  background: rgba(109, 139, 255, 0.14);
+  background: rgba(255, 255, 255, 0.08);
   padding: 1px 6px;
   border-radius: 6px;
   font-size: 0.86em;
-  color: #cfd8ff;
+  color: #d0d0d0;
 }
 
 /* ── Marca ─────────────────────────────────────────────── */
@@ -63,7 +63,7 @@ code {
   height: 34px;
   border-radius: 11px;
   background: linear-gradient(135deg, var(--acento), var(--acento-2));
-  box-shadow: 0 0 26px rgba(109, 139, 255, 0.5);
+  box-shadow: 0 0 26px rgba(255, 255, 255, 0.15);
   flex: none;
 }
 
@@ -141,7 +141,7 @@ code {
 }
 .campo-input:focus {
   border-color: var(--acento);
-  box-shadow: 0 0 0 3px rgba(109, 139, 255, 0.18);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.1);
 }
 .campo-dica {
   display: block;
@@ -234,9 +234,9 @@ code {
   color: #a7f3d0;
 }
 .aviso-info {
-  background: rgba(109, 139, 255, 0.12);
-  border: 1px solid rgba(109, 139, 255, 0.32);
-  color: #c7d2fe;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #d0d0d0;
 }
 
 /* ── Painel ────────────────────────────────────────────── */
@@ -352,7 +352,7 @@ code {
 }
 .card-usuario.eu {
   border-color: var(--acento);
-  box-shadow: 0 0 0 1px rgba(109, 139, 255, 0.35);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.25);
 }
 @keyframes surgir {
   from {
@@ -508,8 +508,8 @@ code {
   color: var(--ok);
 }
 .m-POST {
-  background: rgba(109, 139, 255, 0.18);
-  color: #a5b4fc;
+  background: rgba(255, 255, 255, 0.14);
+  color: #d8d8d8;
 }
 .m-PUT {
   background: rgba(251, 191, 36, 0.15);
